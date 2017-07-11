@@ -15,6 +15,14 @@ The loading screen is designed to have a material design feel. It is responsive 
 ---
 
 # How to install
-The installation is rather quite simple.
+The installation is rather quite simple. If you have any loading screens installed, do uninstall them and remove them from your citmp-server.yml.
 
-TO BE CONTINUED...
+1. Download the .zip or clone the repository to your desktop.
+2. Extract the .zip to your desktop.
+3. Make sure the folder is named "loqscript-material_load-loadingscreen".
+4. Copy the folder to your server resources folder.
+5. Open up your citmp-server.yml and under "AutoStartResources:" add the following:
+```lua
+- loqscript-material_load-loadingscreen
+```
+That's it. It's all installed and now it's time to configure it.
