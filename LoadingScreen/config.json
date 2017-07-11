@@ -1,0 +1,42 @@
+[
+	{
+		"useBackgroundColour" : "true",
+		"backgroundColour" : "20,20,20",
+		"useBackgroundImage" : "false",
+		"backgroundImagePath" : "images/backgroundImg7.jpg",
+		"useTextColour" : "false",
+		"textColour" : "0,0,0",
+		"useBoldText" : "false",
+		"serverTitle" : "Insert Server Name Here",
+		"playAudioInBackground" : "true",
+		"audioPath" : "audio/gtavthemesong.ogg",
+		"audioVolume" : "0.5"
+	},
+	{
+		"rule1" : "Do not RDM or VDM",
+		"rule2" : "A microphone is a requirement",
+		"rule3" : "Do not abuse/exploit bugs",
+		"rule4" : "Do not use cheats",
+		"rule5" : "No racism",
+		"rule6" : "Do not harass others",
+		"rule7" : "Use common sense"
+	},
+	{
+		"servers1" : "Website: www.asdf.com",
+		"servers2" : "Teamspeak: 123.45.67.8",
+		"servers3" : "Discord: http://discord.gg/asdf123",
+		"servers4" : "",
+		"servers5" : "",
+		"servers6" : "",
+		"servers7" : ""
+	},
+	{
+		"content1" : "Character Customization",
+		"content2" : "Purchasable & Storable Vehicles",
+		"content3" : "Whitelisted Police & EMT Force",
+		"content4" : "Multiple Jobs (mining, fishing, drugs, etc)",
+		"content5" : "Banks & ATMs",
+		"content6" : "Custom Vehicle Models",
+		"content7" : "Cellphone Messaging & Calling"
+	}
+]

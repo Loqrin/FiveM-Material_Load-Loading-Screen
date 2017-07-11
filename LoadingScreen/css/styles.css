@@ -1,0 +1,51 @@
+body
+{
+	background-color: rgb(20,20,20);
+	overflow: hidden;
+}
+
+.backgroundcolour
+{
+	background-color: rgb();
+}
+
+.bold-text
+{
+	font-weight: 400;
+}
+
+.light-text
+{
+	font-weight: 100;
+}
+
+.meme
+{
+	position: fixed;
+    bottom: 0;
+    padding-right: 20px;
+    width: 100%;
+    font-size: 12pt;
+    text-align: right;
+}
+
+#lists > li
+{
+	padding: 10px; 
+	min-height: 2.8em;
+	text-align: left;
+
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#lists > li:nth-child(even)
+{
+	background-color: rgb(25,25,25);
+}
+
+#lists > li:nth-child(odd)
+{
+	background-color: rgb(30,30,30);
+}
