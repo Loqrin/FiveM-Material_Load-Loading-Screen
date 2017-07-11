@@ -36,14 +36,14 @@ The configuration is, again, rather quite simple. Open the folder "loqscript-mat
 2. Once opened, you'll be presented with options such as:
 ![alt text](http://i.imgur.com/KAA7fxy.png "config.json Settings")
 3. The following are the settings and their explanation:
---* "useBackgroundColour" : set this value to true or false if you want to use a solid, background colour.
----* "backgroundColour" : set this value to the format of "0,0,0" where the numbers are the RGB values for the colour of the background.
+  * "useBackgroundColour" : set this value to true or false if you want to use a solid, background colour.
+   * "backgroundColour" : set this value to the format of "0,0,0" where the numbers are the RGB values for the colour of the background.
 --* "useBackgroundImage" : set this value to true or false if you want to use a background image instead of a colour.
----* "backgroundImagePath" : set this value to the path of your image. It can be anywhere but preferbly put it in the images folder.
+--* "backgroundImagePath" : set this value to the path of your image. It can be anywhere but preferbly put it in the images folder.
 --* "useTextColour" : set this value to true or false if you want to use a custom colour for the text.
----* "textColour" : set this value to the format of "0,0,0" where the numbers are the RGB values for the colour of the text.
+--* "textColour" : set this value to the format of "0,0,0" where the numbers are the RGB values for the colour of the text.
 --* "useBoldText" : set this value to true or false if you want to use bold text.
 --* "serverTitle" : set this value to the name of your server.
 --* "playAudioInBackground" : set this value to true or false if you want to play audio in the background when someone is joining.
----* "audioPath" : set this value to the path of your audio file. It can be anywhere but preferbly put it in the audio folder.
----* "audioVolume" : set this value between 0 and 1 to change the volume of the audio that is playing.
+--* "audioPath" : set this value to the path of your audio file. It can be anywhere but preferbly put it in the audio folder.
+--* "audioVolume" : set this value between 0 and 1 to change the volume of the audio that is playing.
