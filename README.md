@@ -34,4 +34,4 @@ The configuration is, again, rather quite simple. Open the folder "loqscript-mat
 
 1. Open the config.json file.
 2. Once opened, you'll be presented with options such as:
-(http://i.imgur.com/KAA7fxy.png "config.json Settings")
+![alt text](http://i.imgur.com/KAA7fxy.png "config.json Settings")
