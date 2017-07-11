@@ -36,7 +36,7 @@ The configuration is, again, rather quite simple. Open the folder "loqscript-mat
 2. Once opened, you'll be presented with options such as:
 ![alt text](http://i.imgur.com/KAA7fxy.png "config.json Settings")
 3. The following are the settings and their explanation:
-⋅⋅* **"useBackgroundColour"** : set this value to true or false if you want to use a solid, background colour.
+  * **"useBackgroundColour"** : set this value to true or false if you want to use a solid, background colour.
   * **"backgroundColour"** : set this value to the format of "0,0,0" where the numbers are the RGB values for the colour of the background.
   * **"useBackgroundImage"** : set this value to true or false if you want to use a background image instead of a colour.
   * **"backgroundImagePath"** : set this value to the path of your image. It can be anywhere but preferbly put it in the images folder.
@@ -47,3 +47,9 @@ The configuration is, again, rather quite simple. Open the folder "loqscript-mat
   * **"playAudioInBackground"** : set this value to true or false if you want to play audio in the background when someone is joining.
   * **"audioPath"** : set this value to the path of your audio file. It can be anywhere but preferbly put it in the audio folder.
   * **"audioVolume"** : set this value between 0 and 1 to change the volume of the audio that is playing.
+  * **"rule1"** : set this value to whatever you want the rules to be. Same applies to **rule2** to **rule7**.
+  * **"servers1"** : set this value to whatever you want the rules to be. Same applies to **servers2** to **servers7**.
+  * **"content1"** : set this value to whatever you want the rules to be. Same applies to **content2** to **content7**.
+  
+  **ALL YOU HAVE TO DO IS INSERT THE CONTENT INBETWEEN THE QUOTATION ("") MARKS! DO NOT CHANGE ANYTHING ELSE SUCH AS COMMAS OR TRY TO ADD MORE RULES, SERVERS OR CONTENT SETTINGS! IT WILL BREAK AND NOT WORK! WORK WITH WHAT IS SUPPLIED!**
+  
