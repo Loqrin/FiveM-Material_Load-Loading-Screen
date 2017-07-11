@@ -26,3 +26,12 @@ The installation is rather quite simple. If you have any loading screens install
 - loqscript-material_load-loadingscreen
 ```
 That's it. It's all installed and now it's time to configure it.
+
+---
+
+# How to configure
+The configuration is, again, rather quite simple. Open the folder "loqscript-material_load-loadingscreen". Then head into the folder "LoadingScreen". Within there, you'll see a file called "config.json".
+
+1. Open the config.json file.
+2. Once opened, you'll be presented with options such as:
+(http://i.imgur.com/KAA7fxy.png "config.json Settings")
