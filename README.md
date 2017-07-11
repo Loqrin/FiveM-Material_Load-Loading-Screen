@@ -60,7 +60,11 @@ The configuration is, again, rather quite simple. Open the folder "loqscript-mat
   
 ---
 
-That's it. Not much to it. If you appreciate my work and wish to purchase me a coffe, or something else, you can always send a donation to my PayPal by clicking the button below. Thank you for using my loading screen, and thank you in advance if you do donate.
+That's it. Not much to it. Thank you for using my loading screen.
+
+---
+
+If you appreciate any of my work and wish to purchase me a coffe, or something else, you can always send a donation to my PayPal by clicking the button below.
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L5WM8JJY3KXEU)
 
