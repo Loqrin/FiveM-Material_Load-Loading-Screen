@@ -56,3 +56,15 @@ The configuration is, again, rather quite simple. Open the folder "loqscript-mat
 4. If you do use a background image or audio file, do not forget to include it in the "[resource.lua](../master/__resource.lua)" file. 
   * If it's a background: insert it under the heading "--Loading Image Files--" inside ''. Inside the '' is the path to your background.
   * If it's an audio: insert it under the heading "--Loading Audio Files--" inside ''. Inside the '' is the path to your audio file.
+  
+---
+
+That's it. Not much to it. If you appreciate my work and wish to purchase me a coffe, or something else, you can always send a donation to my PayPal by clicking the button below. Thank you for using my loading screen, and thank you in advance if you do donate.
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="L5WM8JJY3KXEU">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
