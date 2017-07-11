@@ -10,7 +10,7 @@ Material_Load is a loading screen developed by github.com/Loqrin. The loading sc
 + Ability to set what servers / other community things the user has on the loading screen.
 + Ability to set the content of what the server has, on the loading screen.
 
-The loading screen is designed to have a material design feel. It is responsive on different resolutions.
+The loading screen is designed to have a material design feel. It is responsive on different resolutions. If you wish to view an example, you can visit the following YouTube link:
 
 ---
 
@@ -53,3 +53,6 @@ The configuration is, again, rather quite simple. Open the folder "loqscript-mat
   
   **ALL YOU HAVE TO DO IS INSERT THE CONTENT INBETWEEN THE QUOTATION ("") MARKS! DO NOT CHANGE ANYTHING ELSE SUCH AS COMMAS OR TRY TO ADD MORE RULES, SERVERS OR CONTENT SETTINGS! IT WILL BREAK AND NOT WORK! WORK WITH WHAT IS SUPPLIED!**
   
+4. If you do use a background image or audio file, do not forget to include it in the "[resource.lua](../blob/master/__resource.lua)" file. 
+  * If it's a background: insert it under the heading "--Loading Image Files--" inside ''. Inside the '' is the path to your background.
+  * If it's an audio: insert it under the heading "--Loading Audio Files--" inside ''. Inside the '' is the path to your audio file.
