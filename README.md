@@ -11,6 +11,7 @@ Material_Load is a loading screen developed by github.com/Loqrin. The loading sc
 + Ability to set the content of what the server has, on the loading screen.
 
 The loading screen is designed to have a material design feel. It is responsive on different resolutions. If you wish to view an example, you can visit the following YouTube link:
+https://youtu.be/B32-xvPCdP8
 
 ---
 
