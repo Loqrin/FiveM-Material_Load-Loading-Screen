@@ -46,7 +46,7 @@ The configuration is, again, rather quite simple. Open the folder "loqscript-mat
   * **"useBoldText"** : set this value to true or false if you want to use bold text.
   * **"serverTitle"** : set this value to the name of your server.
   * **"playAudioInBackground"** : set this value to true or false if you want to play audio in the background when someone is joining.
-  * **"YTVideoID"** : set this value to the ID of a YouTube video (https://www.youtube.com/watch?v=**HPc8QMycGno**).
+  * **"YTVideoID"** : set this value to the ID of a YouTube video. Eg: (https://www.youtube.com/watch?v=HPc8QMycGno) ID = HPc8QMycGno.
   * **"videoVolume"** : set this value between 0 and 100 to change the volume of the video that is playing.
   * **"rule1"** : set this value to whatever you want the rules to be. Same applies to **rule2** to **rule7**.
   * **"servers1"** : set this value to whatever you want the rules to be. Same applies to **servers2** to **servers7**.
