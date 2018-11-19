@@ -1,3 +1,6 @@
+var videoID = ""
+var videoVolume = 5
+
 $(document).ready(function ()
 {
 	//Loading Config from Json//
@@ -60,9 +63,8 @@ $(document).ready(function ()
 
 		if(config[0].playAudioInBackground == "true")
 		{
-			var audio = new Audio('' + config[0].audioPath);
-			audio.play();
-  			audio.volume = config[0].audioVolume;
+			videoID = config[0].YTVideoID
+			videoVolume = config[0].videoVolume
 		}
 
 		$("#serverTitle").text(config[0].serverTitle);

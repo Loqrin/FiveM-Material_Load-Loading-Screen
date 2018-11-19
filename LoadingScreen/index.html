@@ -5,9 +5,14 @@
 		<link type = "text/css" rel = "stylesheet" href = "css/materialize.min.css"  media = "screen,projection" />
 		<link type = "text/css" rel = "stylesheet" href = "css/animate.css" />
 		<link type = "text/css" rel = "stylesheet" href = "css/styles.css" />
+
+		<!--<script src = "https://www.youtube.com/player_api"></script>-->
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      	<script type = "text/javascript" src = "js/materialize.min.js"></script>
+		<script type = "text/javascript" src = "js/material_load.js"></script>
 	</head>
 
-	<body id = "background">
+	<body id = "background" style = "background-size: cover; background-position: center;">
 		<div class = "valign-wrapper" style = "width: 100%; height: 100%;">
 			<div class = "container" style = "clear: both; width: 100%;">
 				<h1 id = "useTextColour1" class = "center-align">You are now joining</h1>
@@ -80,8 +85,32 @@
 			<h5 id = "useTextColour5" class = "meme">Made by github.com/Loqrin</h5>
 		</div>
 
-		<script type = "text/javascript" src = "js/jquery.min.js"></script>
-      	<script type = "text/javascript" src = "js/materialize.min.js"></script>
-      	<script type = "text/javascript" src = "js/material_load.js"></script>
+		<div id="player"></div>
+
+		<script>
+			var tag = document.createElement('script');
+
+			tag.src = "https://www.youtube.com/iframe_api";
+			var firstScriptTag = document.getElementsByTagName('script')[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+			var player;
+			function onYouTubeIframeAPIReady() 
+			{
+				player = new YT.Player('player', {
+				height: '390',
+				width: '640',
+				videoId: '' + videoID,
+				events: {
+					'onReady': onPlayerReady
+				}
+				});
+			}
+
+			function onPlayerReady(event) {
+				event.target.setVolume(videoVolume);
+				event.target.playVideo();
+			}
+		</script>
 	</body>
 </head>

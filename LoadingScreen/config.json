@@ -9,8 +9,8 @@
 		"useBoldText" : "false",
 		"serverTitle" : "Insert Server Name Here",
 		"playAudioInBackground" : "true",
-		"audioPath" : "audio/gtavthemesong.ogg",
-		"audioVolume" : "0.5"
+		"YTVideoID" : "HPc8QMycGno",
+		"videoVolume" : "5"
 	},
 	{
 		"rule1" : "Do not RDM or VDM",
