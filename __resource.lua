@@ -12,8 +12,6 @@ files {
     'LoadingScreen/images/backgroundImg6.jpg',
     'LoadingScreen/images/backgroundImg7.jpg',
     'LoadingScreen/images/backgroundImg8.jpg',
-    --Loading Audio Files--
-    'LoadingScreen/audio/gtavthemesong.ogg',
     --Loading Config File--
     'LoadingScreen/config.json',
     --Loading JS Files--
