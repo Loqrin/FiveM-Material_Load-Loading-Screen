@@ -1,3 +1,6 @@
+fx_version 'bodacious'
+game 'gta5'
+
 description '[LoqScript] material_load - A material designed loading screen for RP servers. Made by Loqrin : github.com/Loqrin'
 
 files {
